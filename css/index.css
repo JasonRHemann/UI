@@ -1,0 +1,29 @@
+* {
+  border: 1px solid black;
+}
+.nav-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-section nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-section nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 6px 10px;
+}
+.home {
+  width: 100%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+}
